@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.app-container {
+  background-color: #ffc2a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  width: 90%;
+  padding: 24px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-width: 1110px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #ff8542;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.todo-list {
+  padding-left: 20px;
+}
